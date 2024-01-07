@@ -18,21 +18,46 @@ This week's challenge will explore critical concepts and services related to clo
 In this challenge, you are expected to produce the following deliverables:
 
 ### 1. Architecture Diagram 🏗️
-A comprehensive architecture diagram illustrates how the various cloud services and components fit together. You can use tools like draw.io, Lucidchart, or any other diagramming tool of your choice to create the diagram. 📊
+![Day4 Diagram](https://github.com/abinshihab/10weeksofcloudops/assets/22618390/e9404ad1-2bd8-40e8-b506-7dff949d8ea9)
+
 
 ### 2. Blog or GitHub Readme 📄
-You should document your progress and steps taken during the challenge. This documentation could be in the form of a blog post or a GitHub Readme file. Include code snippets, configuration files, and explanations for each step. Share your insights and learning experiences. 📝
 
 Here's a suggested outline for your documentation:
 
-- **Introduction**: Briefly introduce the challenge and its objectives. 📋
-- **Step-by-Step Guide**: Provide a detailed completed task walkthrough. Include code examples and configurations where applicable. 💡
+- **Introduction**: I
+- We will be using Amazon S3 to store our static website content, CloudFront as our CDN to improve the website's performance, ACM to manage SSL/TLS certificates, CodePipeline for CICD pipeline automation, and Namecheap for DNS management.
+- ### Step 1 — Setup the bucket and make it static website.
+![Create S3 click create button](https://github.com/abinshihab/100DaysofCloud/assets/22618390/ec550213-ffbe-4d48-ae79-5dd0b1854c87)
+<img width="950" alt="image" src="https://github.com/abinshihab/100DaysofCloud/assets/22618390/f2e91302-a9ab-4120-9712-42e3523a3e54">
+
+
+### Step 2 — Create AWS cloudfront
+
+![create cloud front distrubtion 1 ](https://github.com/abinshihab/100DaysofCloud/assets/22618390/4e30b7a0-c356-44e6-8ef9-b14f82c6094d)
+
+![create cloud front distrubtion 2 ](https://github.com/abinshihab/100DaysofCloud/assets/22618390/50abe006-fa37-4876-b958-aa1e5602117d)
+![Request a certificate0](https://github.com/abinshihab/100DaysofCloud/assets/22618390/c841b2c0-29bb-451b-a4d2-d6996004336a)
+
+### setup 3 - Create HTTPS certificate
+![Request a certificate 1](https://github.com/abinshihab/100DaysofCloud/assets/22618390/d4bcd4ba-fc79-4839-9a68-c3999864778a)
+![Request a certificate final](https://github.com/abinshihab/100DaysofCloud/assets/22618390/88c42879-99a1-43ba-a9b6-cf02a1f68b12)
+
+### setup 4 - Finalize the setup of CloudFront creation
+
+![create cloud front distrubtion enable Web Application Firewall  ](https://github.com/abinshihab/100DaysofCloud/assets/22618390/300c0d47-fb15-4702-8e2b-40d254500a10)
+
+![create cloud front distrubtion final step ](https://github.com/abinshihab/100DaysofCloud/assets/22618390/4730265b-72ab-4bcc-b604-33483c3289f6)
+
+
+
+
 - **Challenges Faced**: Discuss any challenges you encountered and how you overcame them. 🤔
 - **Key Takeaways**: Share your key learnings from this week's challenge. 🧐
 - **Resources**: List any helpful resources or references you used. 📚
+for more information you can see the youtube video I followed up 
+https://www.youtube.com/watch?v=UVvc_RtOoWg&list=PLl4APkPHzsUUc8HOEIwfB3Z2uxRv2SKOG&index=3
 
-### 3. Screen Recording or Live Website 📽️
-Optionally, you can create a screen recording or deploy a live website demonstrating your implementation. This adds an interactive element to your documentation and can be valuable to your portfolio. 🎥
 
 
 ### Reference resources: ✅
